@@ -7,7 +7,8 @@ cd %~dp0
 pip install -r requirements.txt %*
 pause
 ```
-Lalu save as nya jangan txt, tapi allfiles dan akhiran ekstensinya .bat
+Lalu save as nya jangan txt, tapi allfiles dan akhiran ekstensinya .bat 
+Kadang Windows Defender mendeteksinya sebagai ancaman virus, maka sebelum mengekseskusi bisa di exclude dulu folder sitemap-url-extractor ini atau di nonaktifkan dulu windows defendernya.
 ## Step 2 : Run streamlit_app
 Sama seperti langkah diatas, buat file bat menggunakan notepad, ketik :
 ```

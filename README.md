@@ -4,7 +4,7 @@ Buat file bat dengan menggunakan notepad untuk menjalankan secara otomatis file 
 @echo OFF
 Title requirements
 cd %~dp0
-pip install requirements.txt %*
+pip install -r requirements.txt %*
 pause
 ```
 Lalu save as nya jangan txt, tapi allfiles dan akhiran ekstensinya .bat
